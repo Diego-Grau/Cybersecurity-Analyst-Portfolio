@@ -1,6 +1,6 @@
 # SOC Analyst Portfolio
 
-This repository documents my journey preparing for a SOC Analyst role.
+This repository documents my journey for a SOC Analyst role.
 
 The goal of this project is to demonstrate practical skills in:
 
@@ -38,7 +38,3 @@ Security lab writeups.
 - Wireshark
 - ELK
 - Sysmon
-
-## Author
-
-SOC Analyst in training.
