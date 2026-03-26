@@ -6,7 +6,7 @@
 ## Entities Involved
 - Sender: urgents[@]amazon[.]biz  
 - Recipient: h.harris@thetrydaily.thm  
-- URL: http://bit[.]ly/3sHkX3da12340
+- URL: hxxp://bit[.]ly/3sHkX3da12340
 
 ## Investigation Findings
 - El correo utiliza un acortador de URL y un subdominio malicioso que intenta suplantar a Amazon.  

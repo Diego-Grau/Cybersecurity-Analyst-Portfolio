@@ -117,8 +117,8 @@ All attacks were contained at early stages, with no confirmed compromise.
 - 102.89.222.143  
 
 **Emails:**  
-- urgents@amazon.biz  
-- no-reply@m1crosoftsupport.co  
+- urgents[@]amazon[.]biz  
+- no-reply[@]m1crosoftsupport[.]co  
 
 ---
 

@@ -117,8 +117,8 @@ Todos los ataques fueron contenidos en etapas tempranas, sin compromiso confirma
 - 102.89.222.143  
 
 **Correos electrónicos:**  
-- urgents@amazon.biz  
-- no-reply@m1crosoftsupport.co  
+- urgents[@]amazon[.]biz  
+- no-reply[@]m1crosoftsupport[.]co  
 
 ---
 
