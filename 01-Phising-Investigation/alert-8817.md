@@ -4,10 +4,10 @@
 25/03/2026 08:39 UTC
 
 ## Entities Involved
-- Sender: no-reply@m1crosoftsupport.co  
+- Sender: no-reply[@]m1crosoftsupport[.]co  
 - Recipient: c.allen@thetrydaily.thm  
 - IP: 102.89.222.143  
-- URL: https://m1crosoftsupport[.]co/login  
+- URL: hxxps://m1crosoftsupport[.]co/login  
 - Location: Lagos, Nigeria
 
 ## Investigation Findings
@@ -27,12 +27,12 @@
 - Escalado a SOC L2 debido a posible campaña de phishing.  
 
 ## Recommended Actions
-- Bloquear dominio m1crosoftsupport.co y IP 102.89.222.143  
+- Bloquear dominio m1crosoftsupport[.]co y IP 102.89.222.143  
 - Eliminar correo de buzones afectados  
 - Monitorizar para detectar dominios similares  
 - Formar a empleados y reforzar conciencia sobre phishing  
 
 ## IOCs
-- dominio: m1crosoftsupport.co  
+- dominio: m1crosoftsupport[.]co  
 - IP: 102.89.222.143  
-- correo: no-reply@m1crosoftsupport.co
+- correo: no-reply[@]m1crosoftsupport[.]co

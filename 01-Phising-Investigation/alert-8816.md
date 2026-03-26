@@ -6,7 +6,7 @@
 ## Entities Involved
 - Source IP: 10.20.2.17 (Hanna Harris)  
 - Destination IP: 67.199.248.11  
-- URL: http://bit[.]ly/3sHkX3da12340
+- URL: hxxp://bit[.]ly/3sHkX3da12340
 
 ## Investigation Findings
 - TryDetectThis marcó la URL como maliciosa.  

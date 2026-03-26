@@ -6,7 +6,7 @@
 ## Entities Involved
 - Sender: onboarding@hrconnex.thm  
 - Recipient: j.garcia@thetrydaily.thm  
-- URL: https://hrconnex[.]thm/onboarding/15400654060/j.garcia
+- URL: hxxps://hrconnex[.]thm/onboarding/15400654060/j.garcia
 
 ## Investigation Findings
 - El dominio del remitente es consistente con los sistemas internos de HR.  

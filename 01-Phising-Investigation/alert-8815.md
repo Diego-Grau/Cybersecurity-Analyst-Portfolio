@@ -4,7 +4,7 @@
 25/03/2026 08:37 UTC
 
 ## Entities Involved
-- Sender: urgents@amazon.biz  
+- Sender: urgents[@]amazon[.]biz  
 - Recipient: h.harris@thetrydaily.thm  
 - URL: http://bit[.]ly/3sHkX3da12340
 
@@ -24,11 +24,11 @@
 - No es necesario escalar. La alerta fue contenida.  
 
 ## Recommended Actions
-- Añadir a la lista negra `urgents@amazon.biz`.  
+- Añadir a la lista negra `urgents[@]amazon[.]biz`.  
 - Ajustar filtros de correo para mayor efectividad.  
 - Formar a los empleados sobre no abrir enlaces desconocidos.  
 
 ## IOCs
-- dominio: amazon.biz  
-- URL: bit.ly/3sHkX3da12340  
-- correo: urgents@amazon.biz
+- dominio: amazon[.]biz  
+- URL: bit[.]ly/3sHkX3da12340  
+- correo: urgents[@]amazon[.]biz
