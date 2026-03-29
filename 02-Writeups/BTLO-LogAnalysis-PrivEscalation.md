@@ -15,7 +15,6 @@ Un servidor con datos sensibles fue comprometido y la información se filtró en
 Al inspeccionar el historial, se observa que el atacante lista los directorios dentro de `/home` para identificar usuarios válidos en el sistema.
 
 ![Imagen 1: Enumeración de usuarios](images/question1.png)
-> **Instrucción:** Guarda la captura donde se ve `cd /home/daniel/` en una carpeta llamada `images` con el nombre `question1.png`.
 
 * **Pregunta:** ¿Qué usuario (además de 'root') está presente en el servidor?
 * **Respuesta:** daniel
