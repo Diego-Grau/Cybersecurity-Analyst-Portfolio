@@ -1,0 +1,14 @@
+Invoice ID: 45987
+
+Dear Customer,
+
+Please complete your payment using the link below:
+
+https://diego-grau.github.io/invoice.html
+
+Failure to complete the payment may result in account suspension.
+
+Regards,
+Billing Department
+
+FLAG: DGF{attachment_reviewed}
