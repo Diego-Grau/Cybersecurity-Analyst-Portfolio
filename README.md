@@ -27,8 +27,8 @@ Detailed technical writeups from Blue Team Labs, covering:
 - Log analysis and privilege escalation
 - Splunk queries for detection
 
-**03 - Custom CTF (In Progress)**  
-Developing my own Capture The Flag challenges.
+**03 - HomeLab-SOC (In Progress)**  
+Developing my own SOC environment.
 
 *(Additional projects and labs will be added regularly as I continue building experience.)*
 
