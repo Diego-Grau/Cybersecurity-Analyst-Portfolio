@@ -1,6 +1,6 @@
-# 🛡️ Home Lab SOC — Entorno de Detección y Respuesta a Incidentes
+# HomeLab SOC — Entorno de Detección y Respuesta a Incidentes
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto consiste en la construcción de un **laboratorio SOC doméstico** sobre máquinas virtuales (VirtualBox) en un host Windows físico. El objetivo es simular un entorno real de operaciones de seguridad que permita:
 
@@ -13,7 +13,7 @@ Este laboratorio sirve como entorno de práctica para consolidar habilidades en 
 
 ---
 
-## 🗺️ Arquitectura
+## Arquitectura
 
 ```
 [Internet / Nube]
@@ -29,7 +29,7 @@ Este laboratorio sirve como entorno de práctica para consolidar habilidades en 
 
 ---
 
-## 🖥️ Componentes del Laboratorio
+## Componentes del Laboratorio
 
 | Máquina | Rol | SO | Herramientas |
 |---|---|---|---|
@@ -42,7 +42,7 @@ Este laboratorio sirve como entorno de práctica para consolidar habilidades en 
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 ### SIEM — Wazuh
 - Recolección y correlación de logs de los agentes
@@ -64,7 +64,7 @@ Este laboratorio sirve como entorno de práctica para consolidar habilidades en 
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 03-HomeLab-SOC/
@@ -79,15 +79,5 @@ Este laboratorio sirve como entorno de práctica para consolidar habilidades en 
 └── splunk_queries.md          # (Opcional) Consultas adicionales
 ```
 
----
-
-## 🎯 Objetivos del Laboratorio
-
-- [x] Despliegue y configuración de Wazuh Server
-- [x] Instalación de agentes en Windows y Ubuntu
-- [x] Despliegue de TheHive, Cortex y MISP con Docker
-- [ ] Simulación de ataques y validación de alertas
-- [ ] Creación de casos de incidente en TheHive
-- [ ] Integración MISP → TheHive para enriquecimiento de IOCs
 
 
