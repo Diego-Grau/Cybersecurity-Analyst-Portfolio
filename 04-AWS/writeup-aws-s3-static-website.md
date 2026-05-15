@@ -33,7 +33,7 @@ Los residentes acceden al portal web de la ciudad, cuyo contenido estático est�
 
 Desde la consola de AWS, se buscó el servicio **S3** en la barra de búsqueda y se accedió al panel de **Buckets de uso general**.
 
-![Búsqueda de S3 en AWS Console](screenshots/01-search-s3.png)
+![Búsqueda de S3 en AWS Console](1.png)
 
 ---
 
