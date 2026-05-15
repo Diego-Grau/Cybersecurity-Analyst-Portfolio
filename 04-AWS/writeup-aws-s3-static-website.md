@@ -33,7 +33,7 @@ Los residentes acceden al portal web de la ciudad, cuyo contenido estático est�
 
 Desde la consola de AWS, se buscó el servicio **S3** en la barra de búsqueda y se accedió al panel de **Buckets de uso general**.
 
-![Búsqueda de S3 en AWS Console](1.png)
+![Búsqueda de S3 en AWS Console](images/2.png)
 
 ---
 
@@ -41,7 +41,7 @@ Desde la consola de AWS, se buscó el servicio **S3** en la barra de búsqueda y
 
 En la lista de buckets se localizó el bucket con prefijo `website-bucket-`, creado automáticamente por el laboratorio.
 
-![Lista de buckets S3](screenshots/02-buckets-list.png)
+![Lista de buckets S3](images/3.png)
 
 ---
 
@@ -63,9 +63,9 @@ Dentro del bucket se encontraron los siguientes objetos:
 
 Para configurar correctamente el alojamiento estático, se necesitaba un documento de error. Usando el menú **Acciones → Cambiar el nombre del objeto**, se renombró `text.html` a `error.html`.
 
-![Menú de acciones para renombrar](screenshots/03-rename-menu.png)
+![Menú de acciones para renombrar](images/4.png)
 
-![Formulario de cambio de nombre](screenshots/04-rename-form.png)
+![Formulario de cambio de nombre](images/5.png)
 
 ---
 
@@ -95,7 +95,7 @@ En la pestaña **Permisos** se verificaron dos configuraciones clave:
 
 Esta política permite que **cualquier usuario** (`"Principal": "*"`) pueda leer (`s3:GetObject`) todos los objetos del bucket. Es el mínimo necesario para un sitio web estático público.
 
-![Permisos y política del bucket](screenshots/05-bucket-policy.png)
+![Permisos y política del bucket](images/6.png)
 
 ---
 
@@ -103,7 +103,7 @@ Esta política permite que **cualquier usuario** (`"Principal": "*"`) pueda leer
 
 Se verificó que el bucket utiliza cifrado **SSE-S3** (Server-Side Encryption con claves administradas por Amazon S3), lo que garantiza que los objetos almacenados están cifrados en reposo.
 
-![Configuración de cifrado](screenshots/06-encryption.png)
+![Configuración de cifrado](images/7.png)
 
 ---
 
@@ -116,7 +116,7 @@ En la pestaña **Propiedades**, sección **Alojamiento de sitios web estáticos*
 - **Documento de índice:** `index.html`
 - **Documento de error:** `error.html`
 
-![Formulario de alojamiento estático](screenshots/07-static-hosting-form.png)
+![Formulario de alojamiento estático](images/9.png)
 
 Tras guardar, S3 proporcionó el **endpoint público** del sitio:
 
@@ -124,7 +124,7 @@ Tras guardar, S3 proporcionó el **endpoint público** del sitio:
 http://website-bucket-1078fe90-5040.s3-website-us-east-1.amazonaws.com
 ```
 
-![Endpoint del sitio web](screenshots/08-website-endpoint.png)
+![Endpoint del sitio web](images/10.png)
 
 ---
 
@@ -132,7 +132,7 @@ http://website-bucket-1078fe90-5040.s3-website-us-east-1.amazonaws.com
 
 Al acceder al endpoint desde un navegador, se cargó correctamente el sitio **"Beach Wave Conditions"**, mostrando una tabla con las condiciones de olas por hora del día.
 
-![Sitio web desplegado](screenshots/09-website-live.png)
+![Sitio web desplegado](images/11.png)
 
 ---
 
@@ -142,19 +142,23 @@ En la sección DIY del laboratorio, el objetivo era renombrar `index.html` a `wa
 
 **Paso 1:** Renombrar el objeto en el bucket.
 
-![Renombrar index.html a waves.html](screenshots/10-rename-waves.png)
+![Renombrar index.html a waves.html](images/13.png)
 
 El rename fue exitoso:
 
-![Confirmación del cambio de nombre](screenshots/11-rename-success.png)
+![Confirmación del cambio de nombre](images/14.png)
 
 **Paso 2:** Actualizar el **Documento de índice** en la configuración de alojamiento estático a `waves.html`.
 
-![Actualizar documento de índice](screenshots/12-update-index-doc.png)
+![Actualizar documento de índice](images/15.png)
+![Actualizar documento de índice](images/16.png)
+
 
 **Paso 3:** Validar en el laboratorio introduciendo el nombre del bucket.
 
-![Validación exitosa en el laboratorio](screenshots/13-validation-success.png)
+![Validación exitosa en el laboratorio](images/17.png)
+![Validación exitosa en el laboratorio](images/18.png)
+
 
 ---
 
